@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.mid{
+    background-color: black;
+    height: 78vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.group{
+    position: relative;
+    left: 0%;
+    padding-top: 1.8cm;
+}
+.heading{
+    font-size: 1cm;
+    color: white;
+    text-decoration: line-through;
+}
+.par{
+    color: red;
+    padding-top: 1.8cm;
+    margin-bottom: 2cm;
+}
+.more{
+    height: 2cm;
+    width: 6cm;
+    font-size: 1cm;
+    color: white;
+    background-color: rgb(193, 10, 193);
+    border-radius: 30px;
+    border: 3px solid purple;
+    box-shadow: 3px 5px rgb(14, 13, 14);
+    text-decoration: none;
+    padding: 10px;
+}
+.more:hover{
+    background-color: rgb(233, 38, 233);
+    box-shadow: none;
+}
+.anime{
+    position: absolute;
+    right: 0%;
+    height: auto;
+    width: 20cm;
+    filter: brightness(1);
+}
+.abo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1cm;
+    border: 3px solid black;
+    padding: 1cm;
+    border-radius: 30px;
+    margin-bottom: 1cm;
+    flex-wrap: wrap;
+    margin: 1cm;
+}
+.img{
+    border-radius: 30px;
+    border: 3px solid rgb(247, 8, 8);
+    box-shadow: 2px 5px 5px 5px black;
+}
+.lo{
+    padding: 0px 0.8cm 0px 0.8cm;
+    color: black;
+    font-weight: 600;
+}
+@media screen and (max-width: 520px) {
+    .anime{
+        visibility: hidden;
+    }
+    .lo{
+        margin: 15px;
+    }
+    .more{
+        font-size: 0.6cm;
+        padding: 10px 15px;
+    }
+    .group{
+        margin-left: 10px;
+    }
+}

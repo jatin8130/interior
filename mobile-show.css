@@ -1,0 +1,102 @@
+@media screen and (max-width: 480px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .menu-bar{
+        position: fixed;
+        background-color: rgb(193, 10, 193);
+        height: 100vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 30px 0px 70px;
+        right: -100%;
+        transition: all 0.5s ease-in-out;
+        margin: 0%;
+    }
+    .menu-bar.active{
+        right: 0%;
+    }
+    .menu{
+        margin: 5px;
+        margin-top: 1cm;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .middle{
+        padding-top: 3cm;
+    }
+    .middle-word, .middle-word-mid{
+        font-size: 0.8cm;
+    }
+    .para{
+        font-size: 0.4cm;
+        margin-bottom: 1.4cm;
+    }
+    .shop-now{
+        margin-left: 0.6cm;
+        font-size: 0.7cm;
+        padding: 13px 20px;
+    }
+    .multi-hang{
+        padding-left: 29%;
+    }
+    .hanging1{
+        position: absolute;
+        height: 1.5cm;
+        left: 0%;
+        padding-left: 1.5cm;
+    }
+    .hanging2{
+        position: absolute;
+        height: 2.6cm;
+        left: 0%;
+        padding-left: 2.6cm;
+    }
+    .hanging3{
+        position: absolute;
+        height: 3.6cm;
+        left: 0%;
+        padding-left: 4.45cm;
+    }
+    .img-hang{
+        padding-left: 4cm;
+        padding-top: 3.5cm;
+    }
+    .hang{
+        height: 4cm;
+        padding-left: 20px;
+    }
+    .burger-line{
+        display: flex;
+        position: absolute;
+        right: 0%;
+        margin: 7px;
+    }
+    .burger{
+        position: absolute;
+        height: auto;
+        width: 40px;
+        right: 0%;
+        z-index: 999;
+        mix-blend-mode: multiply;
+    }
+    .cross{
+        position: absolute;
+        height: auto;
+        width: 40px;
+        right: 0%;
+        z-index: 999;
+        mix-blend-mode: multiply;
+        display: none;
+    }
+    .burger.active{
+        display: none;
+    }
+    .cross.active{
+        display: flex;
+    }
+}

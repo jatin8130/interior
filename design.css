@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    font-size: 1cm;
+    float: left;
+    margin-bottom: 0.7cm;
+    text-transform: uppercase;
+    padding-top: 1cm;
+}
+.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    border: 3px solid black;
+    box-shadow: 3px 5px 5px 5px black;
+    margin: 30px;
+}
+.size{
+    height: auto;
+    width: 7.4cm; 
+    overflow: hidden;
+}
+.design{
+    height: auto;
+    width: 8cm; 
+    transition: 0.3s;
+}
+.design:hover{
+   transform: scale(1.4);
+}   
+.name{
+    display: flex;
+    float: left;
+    padding: 10px 0px 0px 20px;
+}
+.rate{
+    display: flex;
+    float: left;
+    padding: 10px 0px 0px 20px;
+}
+.star{
+    width: 4cm;
+    float: left;
+}
+.des{
+    font-size: small;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.list{
+    margin: 1cm;
+    background-color: black;
+    height: 1.8cm;
+    width: 12cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.menu{
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.menu:hover{
+    color: red;
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+#men{
+    color: red;
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+.listed{
+    margin: 1cm;
+    background-color: black;
+    height: 1.8cm;
+    width: 18cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.desi{
+    list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.desi:hover{
+    color: red;
+}
+.ham, .cross{
+    display: none;
+}

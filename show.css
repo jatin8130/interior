@@ -1,0 +1,199 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 2cm;
+    width: auto;
+    mix-blend-mode: multiply;
+}
+.menu-bar{
+    position: absolute;
+    display: flex;
+    right: 0%;
+    margin-top: 25px;
+    z-index: 99;
+}
+.menu{
+    list-style: none;
+    margin-right: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+#active{
+    color: white;
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+.menu:hover{
+    color: white;
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+}
+.middle{
+    padding-top: 7%;
+    padding-left: 5%;
+}
+.middle-word, .middle-word-mid{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+    font-size: 2cm;
+}
+.middle-word-mid{
+    color: rgb(193, 10, 193);
+}
+.para{
+    padding-left: 5%;
+    margin-bottom: 1.7cm;
+}
+.shop-now{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(193, 10, 193);
+    height: auto;
+    width: 6cm;
+    margin-left: 2cm;
+    padding: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2cm;
+}
+.shop-now:hover{
+    color: black;
+    background-color: rgb(193, 10, 193);
+}
+.img-hang{
+    position: absolute;
+    padding-left: 13cm;
+}
+.hang{
+    height: 15cm;
+    width: auto;
+}
+.multi-hang{
+    display: flex;
+    position: absolute;
+    padding-left: 15cm;
+}
+.hanging1{
+    height: 2cm;
+}
+.hanging2{
+    height: 3cm;
+}
+.hanging3{
+    height: 6cm;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    font-size: 1cm;
+    float: left;
+    margin-bottom: 0.7cm;
+    text-transform: uppercase;
+}
+.card-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: fit-content;
+    border: 3px solid black;
+    box-shadow: 3px 5px 5px 5px black;
+    margin: 20px;
+}
+.size{
+    height: auto;
+    width: 7.4cm; 
+    overflow: hidden;
+}
+.design{
+    height: auto;
+    width: 7.4cm; 
+    transition: 0.3s;
+}
+.design:hover{
+   transform: scale(1.4);
+}   
+.name{
+    display: flex;
+    float: left;
+    padding: 10px 0px 0px 20px;
+}
+.star{
+    width: 4cm;
+    float: left;
+}
+.des{
+    font-size: small;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.foot{
+    background-color: rgba(0, 0, 0, 0.97);
+    margin-top: 1cm;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.foot-img{
+    height: 7cm;
+    width: 100%;
+    filter: grayscale(9);
+    position: absolute;
+}
+.write{
+    color: white;
+    z-index: 999;
+    padding-top: 1cm;  
+}
+.f{
+    color: white;
+    padding-top: 3.1cm;
+}
+.l{
+    padding-top: 0.8cm;
+    color: white;
+}
+.media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1cm;
+    padding-top: 0.4cm;
+    padding-bottom: 1cm;
+    border-radius: 40px;
+    background-color: white;
+}
+.col{
+    height: auto;
+    width: 2cm;
+    filter: contrast(9);
+    padding: 10px;
+}
+.burger-line{
+    display: none;
+}

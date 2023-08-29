@@ -1,0 +1,70 @@
+@media screen and (max-width: 400px) {
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 80%;
+        position: fixed;
+        z-index: 99;
+        margin: 0%;
+        align-items: center;
+        justify-content: normal;
+        padding: 10px;
+        right: -100%;
+        background-color: red;
+        position: absolute;
+    }
+    .list.active{
+        right: 0%;
+    }
+    .menu{
+        padding: 1cm;
+        padding: 15px;
+        margin: 30px;
+        font-size: 0.5cm;
+    }
+    .listed{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        font-size: 0.5cm;
+        margin: 1.2cm;
+    } 
+    .ham{
+        display: flex;
+        height: auto;
+        width: 40px;
+        mix-blend-mode: multiply;
+        position: absolute;
+        right: 0%;
+        z-index: 999;
+        margin: 10px;
+    } 
+    .ham.active{
+        display: none;
+    }
+    .cross{
+        height: auto;
+        width: 40px;
+        mix-blend-mode: multiply;
+        position: absolute;
+        right: 0%;
+        z-index: 999;
+        margin: 10px;
+    }
+    .cross.active{
+        display: flex;
+    }
+    #high{
+        padding-top: 6.5cm;
+    }
+}
