@@ -99,4 +99,7 @@
     .cross.active{
         display: flex;
     }
+   .design{
+        width: 100%;
+   }
 }
